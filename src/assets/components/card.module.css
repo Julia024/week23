@@ -1,0 +1,75 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 239, 239);
+    padding: 30px 20px;
+}
+.card {
+    width: 250px;
+    border: 1px solid white;
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgb(79, 79, 79);
+}
+.header {
+    margin: 0;
+    padding: 30px;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 40px 0;
+    color: white;
+
+}
+.upper {
+    align-self: flex-start;
+}
+.number {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.down {
+    align-self: flex-end;
+}
+.speed {
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(241, 239, 239);
+}
+.info {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(225, 224, 224);
+}
+.blue {
+    background-color: rgb(57, 151, 239);
+}
+.lightBlue {
+    background-color: rgb(126, 187, 244);
+}
+.green {
+    background-color: rgb(63, 181, 118);
+}
+.lightGreen {
+    background-color: rgb(109, 197, 154);
+}
+.red {
+    background-color: rgb(238, 66, 66);
+}
+.lightRed {
+    background-color: rgb(236, 122, 122);
+}
+.black {
+    background-color: rgb(61, 61, 61);
+}
+.lightBlack {
+    background-color: rgb(125, 124, 124);
+}
