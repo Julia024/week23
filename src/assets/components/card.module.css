@@ -9,10 +9,7 @@
     border: 1px solid white;
     text-align: center;
 }
-.card:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 5px rgb(79, 79, 79);
-}
+
 .header {
     margin: 0;
     padding: 30px;
@@ -72,4 +69,12 @@
 }
 .lightBlack {
     background-color: rgb(125, 124, 124);
+}
+.active {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgb(79, 79, 79);
+}
+.btn:hover {
+    background-color: green;
+    color: white;
 }

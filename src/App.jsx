@@ -1,19 +1,11 @@
 import './App.css'
-import Card from './assets/components/Card'
-import Arr from './assets/components/Arr'
-import styles from './assets/components/card.module.css'
+
+import CardContainer from './assets/components/CardContainer';
 
 function App() {
   return (
     <>
-      <div className={styles.cardContainer} >
-        {Arr.map((el) => (
-        <Card
-        key={el.id} 
-        {...el}
-        />
-        ))}
-      </div>
+      <CardContainer />
     </>
   );
 }
